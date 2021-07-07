@@ -11,8 +11,8 @@ class FilterString extends Component {
         }
     }
 
-    handleChange(num){
-        this.setState({userInput:num})
+    handleChange(value){
+        this.setState({userInput:value})
     }
 
     filterNames(userInput) {
